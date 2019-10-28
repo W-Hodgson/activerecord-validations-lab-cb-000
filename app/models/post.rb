@@ -12,6 +12,8 @@ class Post < ActiveRecord::Base
   ]
 
   def is_clickbaity
-    if
+    if CLICKBAIT_PATTERNS.none? {}
+
+      emd
   end
 end
