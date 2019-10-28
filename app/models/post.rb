@@ -8,6 +8,7 @@ class Post < ActiveRecord::Base
     /Won't Believe/i,
     /Secret/i,
     /Top [0-9]*/i
+    /Guess/i
   ]
 
   def is_clickbaity
