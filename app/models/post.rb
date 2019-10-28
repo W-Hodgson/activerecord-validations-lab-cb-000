@@ -6,7 +6,8 @@ class Post < ActiveRecord::Base
 
   CLICKBAIT_PATTERNS = [
     /Won't Believe/i,
-    //
+    /Secret/i,
+    
   ]
 
   def is_clickbaity
